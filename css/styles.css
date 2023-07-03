@@ -1,0 +1,158 @@
+:root {
+    --color-blue: #2196F3;
+    --background-brand: #2F303A;
+    --background-team: #F5F4FA;
+    --text-color: #757575;
+    --label-color: #212121;
+    --logo-font: 'Raleway';
+    --brand-font: 'Roboto';
+}
+body{
+    font-family: var(--brand-font), sans-serif;
+    color: var(--text-color);
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    font-family: inherit;
+}
+ul {
+    list-style: none;
+}
+button{
+    outline: none;
+    border: none;
+}
+.link.active{
+    color: var(--color-blue); 
+}
+.link:hover {
+    color: var(--color-blue);
+}
+.label-color{
+    color: var(--label-color);
+}
+.text-color{
+    color: var(--text-color);
+}
+.text-label{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+}
+.text{
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.text-card{
+    font-size: 16px;
+    line-height: 1.1;
+}
+.tittle-card{
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 700;
+}
+.weight-card{
+    font-weight: 500;
+}
+.text-white {
+    color: white;
+}
+.text-foot {
+    color: rgba(255, 255, 255, 0.6);
+}
+.subtitle{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+}
+.logo{
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--color-blue);
+}
+.menu-link{
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
+.text-banner{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: white;
+}
+.content-banner{
+    width: 100%;
+    background: var(--background-brand);
+}
+#team {
+    background-color: var(--background-team);
+}
+.card-team {
+    background-color: white;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+#footer {
+    background-color: var(--background-brand);
+}
+address {
+    font-style: normal;
+}
+.filter-button{
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.btn-blue{
+    background-color: var(--color-blue);
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: inherit;
+}
+.btn-blue:hover {
+    background-color: #188CE8;
+}
+.btn-large{
+    width: 261px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    line-height: 1.8;
+}
+.btn-filter{
+    border-radius: 4px;
+    background: var(--background-team);
+    height: 38px;
+    color: var(--label-color);
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--brand-font);
+    font-weight: 500;
+    line-height: 1.6;
+}
+.btn-filter:hover {
+    background: var(--color-blue);
+    color: white;
+    cursor: pointer;
+}
+.box-products{
+    left: calc(50% - 370px/2 - 400px);
+    top: calc(50% - 404px/2 - 30px);
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.box-products:hover{
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+}
